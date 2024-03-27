@@ -1,0 +1,51 @@
+export const transactionData = [
+  {
+    id: "1",
+    transactionPrice: 8.5,
+    transactionName: "Dunkin' Donuts",
+    transactionLocation: "Boston, MA",
+    transactionDate: "27th March, 2023",
+  },
+  {
+    id: "2",
+    transactionPrice: 65.2,
+    transactionName: "GameStop",
+    transactionLocation: "Dallas, TX",
+    transactionDate: "28th March, 2023",
+  },
+  {
+    id: "3",
+    transactionPrice: 42.75,
+    transactionName: "Costco",
+    transactionLocation: "San Diego, CA",
+    transactionDate: "29th March, 2023",
+  },
+  {
+    id: "4",
+    transactionPrice: 18.99,
+    transactionName: "PetSmart",
+    transactionLocation: "Phoenix, AZ",
+    transactionDate: "30th March, 2023",
+  },
+  {
+    id: "5",
+    transactionPrice: 55.6,
+    transactionName: "IKEA",
+    transactionLocation: "Atlanta, GA",
+    transactionDate: "31st March, 2023",
+  },
+  {
+    id: "6",
+    transactionPrice: 23.45,
+    transactionName: "Chipotle",
+    transactionLocation: "Denver, CO",
+    transactionDate: "1st April, 2023",
+  },
+  {
+    id: "7",
+    transactionPrice: 37.3,
+    transactionName: "Star Market",
+    transactionLocation: "Boston, MA",
+    transactionDate: "2nd April, 2023",
+  },
+];
