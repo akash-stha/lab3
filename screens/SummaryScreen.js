@@ -1,9 +1,8 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import { transactionData } from "../transactionData";
 import SummaryLabel from "../components/SummaryLabel";
 
-export default function SummaryScreen() {
+export default function SummaryScreen({ transactionData }) {
   const totalNumberOfTransactions = transactionData.length;
 
   let totalBalance = 0;
